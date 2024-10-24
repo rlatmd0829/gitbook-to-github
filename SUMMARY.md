@@ -9,10 +9,8 @@
 * [Spring](programing/spring/README.md)
   * [@Transactional](programing/spring/transactional.md)
   * [JPA 벌크연산](programing/spring/jpa.md)
-
-## DATABASE
-
-* [Page 1](database/page-1.md)
+* [Database](programing/database/README.md)
+  * [Index](programing/database/index.md)
 
 ## STUDY
 
@@ -32,7 +30,7 @@
   * [13장 비동기 작업](study/with/13\_-\_.md)
   * [14장 함수형 디자인 패턴](study/with/14\_-\_-\_.md)
 
-## 강의
+## Lecture
 
-* [Inflearn](undefined/inflearn/README.md)
-  * [실습으로 배우는 선착순 이벤트](undefined/inflearn/undefined.md)
+* [Inflearn](lecture/inflearn/README.md)
+  * [실습으로 배우는 선착순 이벤트](lecture/inflearn/undefined.md)
