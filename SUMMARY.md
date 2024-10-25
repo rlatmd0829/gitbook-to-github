@@ -11,6 +11,8 @@
   * [JPA 벌크연산](programing/spring/jpa.md)
 * [Database](programing/database/README.md)
   * [Index](programing/database/index.md)
+* [Infra](programing/infra/README.md)
+  * [Github Action과 Docker를 활용한 CI/CD 구축](programing/infra/github-action-docker-ci-cd.md)
 
 ## STUDY
 
