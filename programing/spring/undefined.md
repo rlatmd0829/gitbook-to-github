@@ -215,7 +215,7 @@ void testConcurrentOrderAndChangePrice() throws InterruptedException {
 
 이때, Item 엔터티에는 @Version 어노테이션이 추가되어 있어서, 동시에 가격 변경을 시도하는 스레드는 충돌로 인해 롤백되어야 합니다.
 
-![image](https://github.com/rlatmd0829/rlatmd0829.github.io/assets/70622731/f51033cb-028e-4930-9796-5e9b2cd5eb60)
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 테스트 결과를 보면, 100개의 주문을 해서 재고가 0일것 같지만 동시에 주문을 시도하여 롤백되는 트랜잭션이 있어 재고가 0이 아닌것을 확인할 수 있습니다.
 
@@ -223,7 +223,7 @@ void testConcurrentOrderAndChangePrice() throws InterruptedException {
 
 위에 낙관적락 테스트코드와 동일한 테스트코드를 사용하여 비관적락을 테스트해보았습니다.
 
-![image](https://github.com/rlatmd0829/rlatmd0829.github.io/assets/70622731/c6a9e6c8-b96b-4da1-8022-6b10e5d29459)
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 비관적락을 사용했을때는 락을 획득할때까지 대기하는 방식이기 때문에 모든 요청이 처리되어 재고가 0이 되었습니다.
 
