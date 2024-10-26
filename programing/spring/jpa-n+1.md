@@ -317,5 +317,5 @@ BatchSize 방식은 직접적으로 해결하는 것은 아니지만 MultipleBag
 
 ### Reference
 
-* [https://velog.io/@wnguswn7/Project-%EC%B9%B4%ED%85%8C%EC%8B%9C%EC%95%88-%EA%B3%B1%EC%9D%98-%EB%B0%9C%EC%83%9D%EA%B3%BC-%ED%95%B4%EA%B2%B0](https://velog.io/@wnguswn7/Project-%EC%B9%B4%ED%85%8C%EC%8B%9C%EC%95%88-%EA%B3%B1%EC%9D%98-%EB%B0%9C%EC%83%9D%EA%B3%BC-%ED%95%B4%EA%B2%B0){: target="\_blank"}
-* [https://jojoldu.tistory.com/457](https://jojoldu.tistory.com/457){: target="\_blank"}
+* [https://velog.io/@wnguswn7/Project-%EC%B9%B4%ED%85%8C%EC%8B%9C%EC%95%88-%EA%B3%B1%EC%9D%98-%EB%B0%9C%EC%83%9D%EA%B3%BC-%ED%95%B4%EA%B2%B0](https://velog.io/@wnguswn7/Project-%EC%B9%B4%ED%85%8C%EC%8B%9C%EC%95%88-%EA%B3%B1%EC%9D%98-%EB%B0%9C%EC%83%9D%EA%B3%BC-%ED%95%B4%EA%B2%B0)
+* [https://jojoldu.tistory.com/457](https://jojoldu.tistory.com/457)

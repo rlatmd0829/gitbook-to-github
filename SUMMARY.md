@@ -4,7 +4,7 @@
 
 ## PROGRAMING
 
-* [JAVA](programing/java/README.md)
+* [Java](programing/java/README.md)
   * [JAVA란](programing/java/java.md)
 * [Spring](programing/spring/README.md)
   * [@Transactional](programing/spring/transactional.md)
