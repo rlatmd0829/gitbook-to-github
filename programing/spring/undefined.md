@@ -231,7 +231,7 @@ void testConcurrentOrderAndChangePrice() throws InterruptedException {
 
 위에 낙관적락 테스트코드와 동일한 테스트코드를 사용하여 비관적락을 테스트해보았습니다.
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 비관적락을 사용했을때는 락을 획득할때까지 대기하는 방식이기 때문에 모든 요청이 처리되어 재고가 0이 되었습니다.
 
