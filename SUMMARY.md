@@ -11,10 +11,18 @@
   * [JPA 벌크연산](programing/spring/jpa.md)
   * [동시성 문제 해결하기](programing/spring/undefined.md)
   * [JPA 연관관계 N+1 문제](programing/spring/jpa-n+1.md)
+  * [JPA 영속성 컨텍스트, 연관관계 편의메서드](programing/spring/jpa-1.md)
 * [Database](programing/database/README.md)
   * [Index](programing/database/index.md)
 * [Infra](programing/infra/README.md)
   * [Github Action과 Docker를 활용한 CI/CD 구축](programing/infra/github-action-docker-ci-cd.md)
+* [MSA](programing/msa/README.md)
+  * [MSA 환경에서의 분산트랜잭션 관리하기위한 패턴들](programing/msa/msa.md)
+  * [분산 트랜잭션 해결 방법중 Saga pattern](programing/msa/saga-pattern.md)
+  * [분산 트랜잭션 해결 방법중 Transactional Outbox 패턴](programing/msa/transactional-outbox.md)
+  * [분산 트랜잭션 해결 방법중 Event Sourcing](programing/msa/event-sourcing.md)
+* [성능테스트](programing/undefined/README.md)
+  * [Jmeter를 활용한 Websocket 성능테스트](programing/undefined/jmeter-websocket.md)
 
 ## STUDY
 
@@ -33,6 +41,10 @@
   * [12장 재귀](study/with/12\_.md)
   * [13장 비동기 작업](study/with/13\_-\_.md)
   * [14장 함수형 디자인 패턴](study/with/14\_-\_-\_.md)
+* [가상 면접 사례로 배우는 대규모 시스템 설계 기초](study/undefined/README.md)
+  * [1장](study/undefined/1.md)
+* [Effective Java](study/effective-java/README.md)
+  * [item 1. 생성자 대신 정적 팩터리 메서드를 고려하라](study/effective-java/item-1..md)
 
 ## Lecture
 

@@ -17,6 +17,8 @@
 
 
 
+
+
 ### synchronized 키워드를 사용한 동기화
 
 ***
@@ -48,6 +50,8 @@ synchronized과 ReentrantLock는 모두 자바에서 멀티스레딩 동기화�
 * ReentrantLock: 명시적으로 락을 관리해야 하므로 코드가 복잡해질 수 있습니다. 하지만 더 세밀한 제어가 가능합니다.
 
 일반적으로는 synchronized를 사용하는 것이 간단하고 편리하며, 성능에 큰 문제가 없는 경우가 많습니다. 하지만 고급 기능이나 특수한 상황에서 ReentrantLock을 사용할 수 있습니다.
+
+
 
 
 
@@ -84,6 +88,8 @@ public class Item {
 ```
 
 두 트랜잭션이 동시에 동일한 엔터티를 수정하려고 시도하면, 먼저 커밋하는 트랜잭션이 성공하고, 나중에 커밋하는 트랜잭션은 충돌로 감지되어 롤백됩니다.
+
+
 
 
 
@@ -157,6 +163,8 @@ public Optional<Item> findByIdWithPessimisticWriteLock(Long id) {
 
 
 
+
+
 ### 낙관적락, 비관적락 테스트
 
 ***
@@ -215,7 +223,7 @@ void testConcurrentOrderAndChangePrice() throws InterruptedException {
 
 이때, Item 엔터티에는 @Version 어노테이션이 추가되어 있어서, 동시에 가격 변경을 시도하는 스레드는 충돌로 인해 롤백되어야 합니다.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 테스트 결과를 보면, 100개의 주문을 해서 재고가 0일것 같지만 동시에 주문을 시도하여 롤백되는 트랜잭션이 있어 재고가 0이 아닌것을 확인할 수 있습니다.
 
@@ -223,13 +231,15 @@ void testConcurrentOrderAndChangePrice() throws InterruptedException {
 
 위에 낙관적락 테스트코드와 동일한 테스트코드를 사용하여 비관적락을 테스트해보았습니다.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 비관적락을 사용했을때는 락을 획득할때까지 대기하는 방식이기 때문에 모든 요청이 처리되어 재고가 0이 되었습니다.
 
 #### 결론
 
 즉, **낙관적락**은 충돌이 발생하는 빈도가 낮거나 충돌이 발생하더라도 롤백해도 큰 영향이 없는 경우에 사용하는 것이 좋고 **비관적락**은 시간이 걸리더라도 모든 요청이 처리되는것이 중요한 상황에서 사용하는것이 좋습니다.
+
+
 
 
 
