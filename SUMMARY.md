@@ -49,6 +49,10 @@
   * [item 3. 생성자나 열거 타입으로 싱글턴임을 보증하라](study/effective-java/item-3..md)
   * [item 5. 자원을 직접 명시하지 말고 의존 객체 주입을 사용하라](study/effective-java/item-5..md)
   * [item 6. 불필요한 객체 생성을 피하라](study/effective-java/item-6..md)
+  * [item 7. 다 쓴 객체 참조를 해제하라](study/effective-java/item-7..md)
+  * [item 8. finalizer와 cleaner 사용을 피하라](study/effective-java/item-8.-finalizer-cleaner.md)
+  * [item 9. try-finally 보다 try-with-resources를 사용하라](study/effective-java/item-9.-try-finally-try-with-resources.md)
+  * [item 10. equals는 일반 규약을 지켜 재정의 하라](study/effective-java/item-10.-equals.md)
   * [Page](study/effective-java/page.md)
 
 ## Lecture
