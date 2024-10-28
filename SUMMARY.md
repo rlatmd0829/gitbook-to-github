@@ -45,6 +45,11 @@
   * [1장](study/undefined/1.md)
 * [Effective Java](study/effective-java/README.md)
   * [item 1. 생성자 대신 정적 팩터리 메서드를 고려하라](study/effective-java/item-1..md)
+  * [item 2. 생성자에 매개변수가 많다면 빌더를 고려하라](study/effective-java/item-2..md)
+  * [item 3. 생성자나 열거 타입으로 싱글턴임을 보증하라](study/effective-java/item-3..md)
+  * [item 5. 자원을 직접 명시하지 말고 의존 객체 주입을 사용하라](study/effective-java/item-5..md)
+  * [item 6. 불필요한 객체 생성을 피하라](study/effective-java/item-6..md)
+  * [Page](study/effective-java/page.md)
 
 ## Lecture
 
