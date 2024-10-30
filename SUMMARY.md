@@ -42,7 +42,7 @@
   * [13장 비동기 작업](study/with/13\_-\_.md)
   * [14장 함수형 디자인 패턴](study/with/14\_-\_-\_.md)
 * [가상 면접 사례로 배우는 대규모 시스템 설계 기초](study/undefined/README.md)
-  * [1장](study/undefined/1.md)
+  * [1장 사용자 수에 따른 규모 확장성](study/undefined/1.md)
 * [Effective Java](study/effective-java/README.md)
   * [item 1. 생성자 대신 정적 팩터리 메서드를 고려하라](study/effective-java/item-1..md)
   * [item 2. 생성자에 매개변수가 많다면 빌더를 고려하라](study/effective-java/item-2..md)
