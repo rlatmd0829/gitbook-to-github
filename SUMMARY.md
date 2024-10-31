@@ -54,6 +54,7 @@
   * [item 9. try-finally 보다 try-with-resources를 사용하라](study/effective-java/item-9.-try-finally-try-with-resources.md)
   * [item 10. equals는 일반 규약을 지켜 재정의 하라](study/effective-java/item-10.-equals.md)
   * [item 11. equals를 재정의하려거든 hashCode도 재정의하라](study/effective-java/item-11.-equals-hashcode.md)
+  * [item 12. toString을 항상 재정의하라](study/effective-java/item-12.-tostring.md)
 
 ## Lecture
 
