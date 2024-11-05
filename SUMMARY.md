@@ -43,6 +43,7 @@
   * [14장 함수형 디자인 패턴](study/with/14\_-\_-\_.md)
 * [가상 면접 사례로 배우는 대규모 시스템 설계 기초](study/undefined/README.md)
   * [1장 사용자 수에 따른 규모 확장성](study/undefined/1.md)
+  * [2장 개략적인 규모 추정](study/undefined/2.md)
 * [Effective Java](study/effective-java/README.md)
   * [item 1. 생성자 대신 정적 팩터리 메서드를 고려하라](study/effective-java/item-1..md)
   * [item 2. 생성자에 매개변수가 많다면 빌더를 고려하라](study/effective-java/item-2..md)
@@ -57,6 +58,7 @@
   * [item 12. toString을 항상 재정의하라](study/effective-java/item-12.-tostring.md)
   * [item 16. public 클래스에서는 public 필드가 아닌 접근자 메서드를 사용하라](study/effective-java/item-16.-public-public.md)
   * [item 24. 멤버 클래스는 되도록 static으로 만들어라](study/effective-java/item-24.-static.md)
+  * [item 31. 한정적 와일드카드를 사용해 API 유연성을 높이라](study/effective-java/item-31.-api.md)
 
 ## Lecture
 
