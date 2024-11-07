@@ -59,6 +59,7 @@
   * [item 16. public 클래스에서는 public 필드가 아닌 접근자 메서드를 사용하라](study/effective-java/item-16.-public-public.md)
   * [item 24. 멤버 클래스는 되도록 static으로 만들어라](study/effective-java/item-24.-static.md)
   * [item 31. 한정적 와일드카드를 사용해 API 유연성을 높이라](study/effective-java/item-31.-api.md)
+  * [item 41. 정의하려는 것이 타입이라면 마커 인터페이스를 사용하라](study/effective-java/item-41..md)
 
 ## Lecture
 
