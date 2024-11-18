@@ -46,6 +46,7 @@
   * [2장 개략적인 규모 추정](study/undefined/2.md)
   * [4장 처리율 제한 장치의 설계](study/undefined/4.md)
   * [5장 안정 해시 설계](study/undefined/5.md)
+  * [6장 키-값 저장소 설계](study/undefined/6.md)
 * [Effective Java](study/effective-java/README.md)
   * [item 1. 생성자 대신 정적 팩터리 메서드를 고려하라](study/effective-java/item-1..md)
   * [item 2. 생성자에 매개변수가 많다면 빌더를 고려하라](study/effective-java/item-2..md)
