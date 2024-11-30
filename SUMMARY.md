@@ -67,6 +67,11 @@
   * [item 31. 한정적 와일드카드를 사용해 API 유연성을 높이라](study/effective-java/item-31.-api.md)
   * [item 41. 정의하려는 것이 타입이라면 마커 인터페이스를 사용하라](study/effective-java/item-41..md)
 
+## Conference
+
+* [2024 당근 테크 밋업](conference/2024/README.md)
+  * [당근 채팅 시스템 어떻게 만들까?](conference/2024/undefined.md)
+
 ## Lecture
 
 * [Inflearn](lecture/inflearn/README.md)
