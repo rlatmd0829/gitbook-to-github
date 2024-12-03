@@ -50,6 +50,7 @@
   * [7장 분산 시스템을 위한 유일ID 생성기 설계](study/undefined/7-id.md)
   * [8장 URL 단축기 설계](study/undefined/8-url.md)
   * [9장 웹 크롤러 설계](study/undefined/9.md)
+  * [10장 알림 시스템 설계](study/undefined/10.md)
 * [Effective Java](study/effective-java/README.md)
   * [item 1. 생성자 대신 정적 팩터리 메서드를 고려하라](study/effective-java/item-1..md)
   * [item 2. 생성자에 매개변수가 많다면 빌더를 고려하라](study/effective-java/item-2..md)
