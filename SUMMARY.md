@@ -53,6 +53,7 @@
   * [10장 알림 시스템 설계](study/undefined/10.md)
   * [11장 뉴스 피드 시스템 설계](study/undefined/11.md)
   * [12장 채팅 시스템 설계](study/undefined/12.md)
+  * [14장 유튜브 설계](study/undefined/14.md)
 * [Effective Java](study/effective-java/README.md)
   * [item 1. 생성자 대신 정적 팩터리 메서드를 고려하라](study/effective-java/item-1..md)
   * [item 2. 생성자에 매개변수가 많다면 빌더를 고려하라](study/effective-java/item-2..md)
