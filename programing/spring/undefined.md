@@ -223,7 +223,7 @@ void testConcurrentOrderAndChangePrice() throws InterruptedException {
 
 이때, Item 엔터티에는 @Version 어노테이션이 추가되어 있어서, 동시에 가격 변경을 시도하는 스레드는 충돌로 인해 롤백되어야 합니다.
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 테스트 결과를 보면, 100개의 주문을 해서 재고가 0일것 같지만 동시에 주문을 시도하여 롤백되는 트랜잭션이 있어 재고가 0이 아닌것을 확인할 수 있습니다.
 
@@ -231,7 +231,7 @@ void testConcurrentOrderAndChangePrice() throws InterruptedException {
 
 위에 낙관적락 테스트코드와 동일한 테스트코드를 사용하여 비관적락을 테스트해보았습니다.
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 비관적락을 사용했을때는 락을 획득할때까지 대기하는 방식이기 때문에 모든 요청이 처리되어 재고가 0이 되었습니다.
 
@@ -297,4 +297,4 @@ Lettuce는 분산락 구현 시 setnx, setex과 같은 명령어를 이용해 �
 * [https://velog.io/@znftm97/%EB%8F%99%EC%8B%9C%EC%84%B1-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0%ED%95%98%EA%B8%B0-V2-%EB%B9%84%EA%B4%80%EC%A0%81-%EB%9D%BDPessimistic-Lock](https://velog.io/@znftm97/%EB%8F%99%EC%8B%9C%EC%84%B1-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0%ED%95%98%EA%B8%B0-V2-%EB%B9%84%EA%B4%80%EC%A0%81-%EB%9D%BDPessimistic-Lock)
 * [https://velog.io/@znftm97/%EB%8F%99%EC%8B%9C%EC%84%B1-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0%ED%95%98%EA%B8%B0-V3-%EB%B6%84%EC%82%B0-DB-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-%EB%B6%84%EC%82%B0-%EB%9D%BDDistributed-Lock-%ED%99%9C%EC%9A%A9](https://velog.io/@znftm97/%EB%8F%99%EC%8B%9C%EC%84%B1-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0%ED%95%98%EA%B8%B0-V3-%EB%B6%84%EC%82%B0-DB-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-%EB%B6%84%EC%82%B0-%EB%9D%BDDistributed-Lock-%ED%99%9C%EC%9A%A9)
 * [https://helloworld.kurly.com/blog/distributed-redisson-lock/](https://helloworld.kurly.com/blog/distributed-redisson-lock/)
-* [https://channel.io/ko/blog/distributedlock\_2022\_backend](https://channel.io/ko/blog/distributedlock\_2022\_backend)
+* [https://channel.io/ko/blog/distributedlock\_2022\_backend](https://channel.io/ko/blog/distributedlock_2022_backend)

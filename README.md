@@ -4,7 +4,7 @@ description: Hi there 👋
 
 # Intro
 
-<figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Blog.** [**https://rlatmd0829.github.io/**](https://rlatmd0829.github.io/)
 
