@@ -1,6 +1,6 @@
 # 카카오페이는 어떻게 수천만 결제를 처리할까? 우아한 결제 분산락 노하우
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 우아한 분산락 노하우
 

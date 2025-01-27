@@ -77,6 +77,7 @@
 * [2024 if KaKao](conference/2024-if-kakao/README.md)
   * [카카오페이는 어떻게 수천만 결제를 처리할까? 우아한 결제 분산락 노하우](conference/2024-if-kakao/undefined.md)
   * [지연이체 서비스 개발기: 은행 점검 시간 끝나면 송금해 드릴게요!](conference/2024-if-kakao/undefined-1.md)
+  * [MMORPG 실시간 알림 서비스 개발기 (feat. Kafka Streams)](conference/2024-if-kakao/mmorpg-feat.-kafka-streams.md)
 * [2024 당근 테크 밋업](conference/2024/README.md)
   * [당근 채팅 시스템 어떻게 만들까?](conference/2024/undefined.md)
 

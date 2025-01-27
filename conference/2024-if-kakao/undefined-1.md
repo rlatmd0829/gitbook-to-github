@@ -1,12 +1,14 @@
 # 지연이체 서비스 개발기: 은행 점검 시간 끝나면 송금해 드릴게요!
 
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+
 ## 지연이체 서비스 개발기
 
 ### Kafka 기반 지연이체 실행
 
 기존에는 rabbitmq로 딜레이 메시지로 구현되어 있었지만 사내 메시지큐가 kafka로 변경되면서 kafka 기반으로 재구성
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 #### 문제 1. kafka 토픽에 같은 송금건이 쌓일 수 있다.
 
@@ -24,7 +26,7 @@ user Lock 잡기
 
 컨슈머가 여러대가 존재하므로 동시에 가져가더라도 lock을 잡아서 동시에 실행되지 않도록 진행
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 문제 3. User Lock 영향으로 송금 실패가 늘어나겠다.
 
