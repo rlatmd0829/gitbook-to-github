@@ -26,7 +26,7 @@ user Lock 잡기
 
 컨슈머가 여러대가 존재하므로 동시에 가져가더라도 lock을 잡아서 동시에 실행되지 않도록 진행
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 문제 3. User Lock 영향으로 송금 실패가 늘어나겠다.
 

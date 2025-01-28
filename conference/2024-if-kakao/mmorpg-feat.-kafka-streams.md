@@ -1,12 +1,12 @@
 # MMORPG 실시간 알림 서비스 개발기 (feat. Kafka Streams)
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## MMORPG 실시간 알림 서비스 개발기
 
 개발사가 여러 회사가 있지만 알림 발송은 퍼블리셔인 카카오 게임즈에서 진행하고 있음
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 그런데 각 개발사에서 알림을 보내는 방식이 제각각이라 알림 서비스 플랫폼을 개발하기 시작함
 
@@ -14,7 +14,7 @@
 
 게임로그를 활용
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 신규 알림 서비스 조건
 
@@ -44,6 +44,6 @@
 
 kafka streams는 하나의 라이브러리로 springboot에서 import해서 사용하고 카프카를 바라봐서 데이터를 가져온다
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 로그토픽에서 로그를 감지하여 가져오고 알림 조건으로 필터링 처리하여 알림 토픽에 넣어주는 방식으로 알림 서비스를 구현하였다.
