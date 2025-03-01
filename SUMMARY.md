@@ -85,4 +85,6 @@
 ## Lecture
 
 * [Inflearn](lecture/inflearn/README.md)
+  * [실전 자바 고급 1편 - 멀티스레드와 동시성](lecture/inflearn/1/README.md)
+    * [Section 2. 프로세스와 스레드 소개](lecture/inflearn/1/section-2..md)
   * [실습으로 배우는 선착순 이벤트](lecture/inflearn/undefined.md)
