@@ -89,4 +89,5 @@
     * [Section 2. 프로세스와 스레드 소개](lecture/inflearn/1/section-2..md)
     * [Section 3. 스레드 생성과 실행](lecture/inflearn/1/section-3..md)
     * [Section 4. 스레드 제어와 생명주기 1](lecture/inflearn/1/section-4.-1.md)
+    * [Section 5. 스레드 제어와 생명주기 2](lecture/inflearn/1/section-5.-2.md)
   * [실습으로 배우는 선착순 이벤트](lecture/inflearn/undefined.md)
