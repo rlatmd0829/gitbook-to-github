@@ -91,4 +91,5 @@
     * [Section 4. 스레드 제어와 생명주기 1](lecture/inflearn/1/section-4.-1.md)
     * [Section 5. 스레드 제어와 생명주기 2](lecture/inflearn/1/section-5.-2.md)
     * [Section 6. 메모리 가시성](lecture/inflearn/1/section-6..md)
+    * [Section 7. 동기화 - synchronized](lecture/inflearn/1/section-7.-synchronized.md)
   * [실습으로 배우는 선착순 이벤트](lecture/inflearn/undefined.md)
