@@ -96,4 +96,5 @@
     * [Section 9. 생산자 소비자 문제1](lecture/inflearn/1/section-9.-1.md)
     * [Section 10. 생산자 소비자 문제2](lecture/inflearn/1/section-10.-2.md)
     * [Section 11. CAS - 동기화와 원자적 연산](lecture/inflearn/1/section-11.-cas.md)
+    * [Section 12. 동시성 컬렉션](lecture/inflearn/1/section-12..md)
   * [실습으로 배우는 선착순 이벤트](lecture/inflearn/undefined.md)
